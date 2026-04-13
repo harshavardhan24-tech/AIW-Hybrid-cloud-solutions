@@ -3,9 +3,7 @@
       "Name": "Azure Local",
       "Language": "English",
       "BaseURL": "https://github.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions",
-      "Files": [
-         
-        
+      "Files": [      
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/refs/heads/FY-23/HOL-4-azure-stack-hci/hci-eternal-lab-overview-v2.md",
           "Order": 1
@@ -17,18 +15,16 @@
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol1-ex2.md",
           "Order": 3
-        },
-       
-         
-           {
+        },       
+        {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex4.md",
           "Order": 4
-        }    ,
-           {
+        },
+        {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex3.md",
           "Order": 5
         },
-           {
+        {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex5.md",
           "Order": 6
         }    
