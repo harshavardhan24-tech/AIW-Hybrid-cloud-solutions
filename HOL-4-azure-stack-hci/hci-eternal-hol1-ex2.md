@@ -1,6 +1,6 @@
 # Exercise 2: Deploying Azure Local in Azure Portal (READ-ONLY)
 
-### Estimated Duration: 180 Minutes
+### Estimated Duration: 30 Minutes
 
 ### Please note that this exercise has already been performed in the lab environment, but please go through the steps to get familiar.
 
