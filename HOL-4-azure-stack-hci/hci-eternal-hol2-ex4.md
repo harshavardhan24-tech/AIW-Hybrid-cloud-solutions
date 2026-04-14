@@ -87,8 +87,9 @@ In this task, you will download a Windows 10 Enterprise multi-session VM image f
 
    > **Note**: VM images download may take 1.5-2 hours to complete.
     
-1. Wait for the download to complete. You can monitor the download Progress by selecting the **VM images (1)** tab from the lab side menu of the localboxcluster resource. Once the VM image download is completed, you will see the Status as **Available (2)**.
+1. Wait for the download to complete. You can monitor the download Progress by going to **localboxcluster** Azure local and select the **VM Images (1)**. Once the VM image download is completed, you will see the Status as **Available (2)**.
 
+    ![](media/NewEx3-7-1.png)
     ![](media/NewEx3-7.png)
 
 1. Now, you can move to the next task of creating the Virtual Machine on Azure Local.

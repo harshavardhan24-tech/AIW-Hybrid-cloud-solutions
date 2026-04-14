@@ -99,11 +99,11 @@ In this task, you will deploy an AKS cluster on Azure Local with Entra-based RBA
 
    ![](media/E4T3S1.png)
 
-1. In the **Kubernetes Clusters** tab, click on **+ Add** **(1)** and from the drop-down select **Create a Kubernetes cluster**.
+1. In the **Kubernetes Clusters** tab, click on **+ Onboard/Create** **(1)** and from the drop-down select **Create a new Kubernetes cluster (2)**.
 
-   ![](media/E4T3S3.png)
+   ![](media/E4T3S3-1.png)
 
-1. In the **Create a Kubernetes cluster** tab, fill in the following details in the Basic section and click on **Next: Node Pool** **(7)**.
+1. In the **Create a Kubernetes cluster** tab, fill in the following details in the Basic section and click on **Next: Node Pool** **(8)**.
 
    | **Variables**                | **Values**                                                    |
    | ---------------------------- |---------------------------------------------------------------|
@@ -111,10 +111,11 @@ In this task, you will deploy an AKS cluster on Azure Local with Entra-based RBA
    | Resource group | From the drop-down Select **Azure-Local** **(2)**  |
    | Kubernetes cluster name | Enter the cluster name as **localaks** **(3)** |
    | Custom location | From the drop-down Select **jumpstart** **(4)** |
-   | Node size | From the drop down select **Standard_A2_v2** **(5)** |
-   | Key pair name | Enter the Key pair name as **localaks** **(6)** |
+   | Kubernates version | Leave it as default **(5)** |
+   | Node size | From the drop down select **Standard_A2_v2** **(6)** |
+   | Key pair name | Enter the Key pair name as **localaks** **(7)** |
 
-   ![](media/image-3a.png)
+   ![](media/image-3a-1.png)
 
 1. In the **Node Pool** tab, leave it default and click in **Next: Access**.
 
@@ -146,7 +147,7 @@ In this task, you will deploy an AKS cluster on Azure Local with Entra-based RBA
 
 1. Click on **localaks** to view details such as the Kubernetes version. "Status" may show connecting for some time while the cluster fully connects to Azure.
 
-     ![](media/Ex4-3.png)
+     ![](media/Ex4-3-1.png)
     
 ## Task 4: Connecting to the Azure Local AKS
 
