@@ -153,9 +153,42 @@ In this task, you will deploy an AKS cluster on Azure Local with Entra-based RBA
 
 In this task, you will connect to the newly created AKS cluster from the Localbox-Client VM using Azure CLI and kubectl.
 
-1. On the Localbox-Client VM, search **Windows PowerShell (1)** and select **Windows PowerShell (2)**, right-click, and select **Run as Administrator (3)**. Then execute the following command in PowerShell
-     
+1. On the Localbox-Client VM, search **Windows PowerShell (1)** and select **Windows PowerShell (2)**, right-click, and select **Run as Administrator (3)**. 
+
      ![](media/windows-powershell.jpg)
+
+1. Then execute the following command in PowerShell
+
+    ```
+    az login
+    ```
+
+1. Select **Work or School account (1)** and click on **Continue (2)**.
+
+      ![](./media/E4T3S2.png)
+
+1. On the **Sign in** blade, you will see a login screen, in which enter the following email/username and password and then click on **Sign in**.  
+
+   * **Azure Username/Email**:  <inject key="AzureAdUserEmail"></inject> 
+
+      ![](./media/E4T3S3-.png) 
+
+   * **Temperory Access Pass**:  <inject key="AzureAdUserPassword"></inject>
+  
+      ![](./media/signin2-0903.png)
+     
+1. On the **Sign in to all apps and websites on this device?** blade, click on **Yes**.
+      ![](./media/E4T3S4.png)
+
+1. On the **Allow your organization to manage your device?** blade, click on **Yes** and then click on **Done**.
+
+      ![](./media/E4T3S5.png)
+
+1. Now on the powershell, check the subscription. it should be look like Azure HOL xxxx or sub 05 - xxxx (for your reference) and enter the **number** and press **Enter**.
+
+      ![](./media/E4T3S6.png)
+
+1. Now execute the below commands to connect to the local AKS.
 
     ```
     az extension add -n connectedk8s
